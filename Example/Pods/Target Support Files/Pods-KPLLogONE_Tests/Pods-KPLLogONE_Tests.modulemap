@@ -1,0 +1,6 @@
+framework module Pods_KPLLogONE_Tests {
+  umbrella header "Pods-KPLLogONE_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

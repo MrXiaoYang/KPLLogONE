@@ -1,0 +1,6 @@
+framework module KPLLogONE {
+  umbrella header "KPLLogONE-umbrella.h"
+
+  export *
+  module * { export * }
+}

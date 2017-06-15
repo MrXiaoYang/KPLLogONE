@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188DDF251EF2351F00CBEA14 /* KPLOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 188DDF231EF2351F00CBEA14 /* KPLOne.h */; };
+		188DDF261EF2351F00CBEA14 /* KPLOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DDF241EF2351F00CBEA14 /* KPLOne.m */; };
+		3D5774DB45C6396E9B51C20B21FFF1AF /* KPLLogONE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E9BBB89072903442E9F0C6A624A434 /* KPLLogONE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4D283CE0BC88EB8C4E7F13A94C5498 /* Pods-KPLLogONE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AC1DBBD05E3D825BF0BB2545D33476 /* Pods-KPLLogONE_Example-dummy.m */; };
+		614F02938CFA26909C5ACDA1FC11935A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		819AF1266279B997401182BFA99DFF28 /* Pods-KPLLogONE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DB8640687C9E9534CE90E76123ED0E /* Pods-KPLLogONE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4EB91331D022E7D3654A3CA5337AE26 /* KPLLogONE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A11DBA0DAA431C8C3C65370CCA6AD0 /* KPLLogONE-dummy.m */; };
+		C9B23C1FED6E470DCF7829D3C88CDC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CF8A7B67D4D399D99CD5EF54D5391620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DD17602C899CA91D76CC4588E15C4BE7 /* Pods-KPLLogONE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A34A639ABE2A68801C1DD15CF975826 /* Pods-KPLLogONE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BA966A89A90FC6F7D2B2C601E18560 /* Pods-KPLLogONE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38554EB44DFF6B2FC424CD776D382341 /* Pods-KPLLogONE_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF13AD58B9F0B57FB305DE158E9A98EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5CB44ABEFC99F4A2FE33B9E9330665;
+			remoteInfo = KPLLogONE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A89DB7488B6A74C4761F22A21E9CEBC /* KPLLogONE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPLLogONE.xcconfig; sourceTree = "<group>"; };
+		0EC8D7DC228BB1220D459C6AD1F3533A /* Pods-KPLLogONE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLLogONE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F802006A4A3CD31B36CE02515B25C6F /* Pods-KPLLogONE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0FE4E8EBA3826FA2E3F6FB5257D763E2 /* Pods-KPLLogONE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLLogONE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		16D91F9445793E02E993F6665CA5BAA3 /* Pods-KPLLogONE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		188DDF231EF2351F00CBEA14 /* KPLOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KPLOne.h; path = ../../../Desktop/KPLOne.h; sourceTree = "<group>"; };
+		188DDF241EF2351F00CBEA14 /* KPLOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KPLOne.m; path = ../../../Desktop/KPLOne.m; sourceTree = "<group>"; };
+		2DD72C92D632A723968C35BB01ADE1F6 /* Pods_KPLLogONE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLLogONE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3118E04B439863D296A1210175713EF2 /* Pods-KPLLogONE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38554EB44DFF6B2FC424CD776D382341 /* Pods-KPLLogONE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLLogONE_Tests-dummy.m"; sourceTree = "<group>"; };
+		3A34A639ABE2A68801C1DD15CF975826 /* Pods-KPLLogONE_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLLogONE_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D2072A1DA39DA6C75C1B9BEAF8BAADD /* Pods-KPLLogONE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLLogONE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B5181995258A5FEC102315A7F68B1D7 /* Pods-KPLLogONE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		539916429F8C045EF29BC83183C0A1A3 /* Pods-KPLLogONE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KPLLogONE_Example.modulemap"; sourceTree = "<group>"; };
+		7821AB37E6BC70D764BD1BA2EE419B54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E499E2F9B6E8E43CCBF777D180D2D3 /* KPLLogONE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KPLLogONE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B36F6F9F246EF06070E6A25D6140A7 /* Pods-KPLLogONE_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLLogONE_Tests-resources.sh"; sourceTree = "<group>"; };
+		89C43A2924D1991432E2BD6231C2574E /* KPLLogONE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLLogONE-prefix.pch"; sourceTree = "<group>"; };
+		8BD10D1EDF218E8E63834DCC217D00E0 /* Pods-KPLLogONE_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLLogONE_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C7941747E2351323605E69C72D7D2CE /* Pods-KPLLogONE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLLogONE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1A11DBA0DAA431C8C3C65370CCA6AD0 /* KPLLogONE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KPLLogONE-dummy.m"; sourceTree = "<group>"; };
+		A2FF6E0A00C7A244D293D499EDFF3663 /* Pods-KPLLogONE_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLLogONE_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A5DB8640687C9E9534CE90E76123ED0E /* Pods-KPLLogONE_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLLogONE_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A607D793A89A0FA9CC2278D6C3D78775 /* Pods_KPLLogONE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLLogONE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AC1DBBD05E3D825BF0BB2545D33476 /* Pods-KPLLogONE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLLogONE_Example-dummy.m"; sourceTree = "<group>"; };
+		AE1BBAB7D8424002E377B8F387D01B52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD07E23F8DD7EB70147C6C3410DAF4F1 /* KPLLogONE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KPLLogONE.modulemap; sourceTree = "<group>"; };
+		C8E9BBB89072903442E9F0C6A624A434 /* KPLLogONE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLLogONE-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4D50ABC62A8DCD13321B676DDCF3DE0 /* Pods-KPLLogONE_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLLogONE_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D8669D921A65FA8B78B3295C1A8684D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5BD2F6F80F2F91D8F26A38F6D18CEE /* Pods-KPLLogONE_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KPLLogONE_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367BB43A6D49CD3B63D61C2C2F046EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F02938CFA26909C5ACDA1FC11935A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BABD50F8F2300C20354E7B421C0C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B23C1FED6E470DCF7829D3C88CDC6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D185B09608CCB7C34B67B365B31D689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8A7B67D4D399D99CD5EF54D5391620 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0963C01262709356162CB87F7A3CE1D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7821AB37E6BC70D764BD1BA2EE419B54 /* Info.plist */,
+				BD07E23F8DD7EB70147C6C3410DAF4F1 /* KPLLogONE.modulemap */,
+				0A89DB7488B6A74C4761F22A21E9CEBC /* KPLLogONE.xcconfig */,
+				A1A11DBA0DAA431C8C3C65370CCA6AD0 /* KPLLogONE-dummy.m */,
+				89C43A2924D1991432E2BD6231C2574E /* KPLLogONE-prefix.pch */,
+				C8E9BBB89072903442E9F0C6A624A434 /* KPLLogONE-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KPLLogONE";
+			sourceTree = "<group>";
+		};
+		1AE971D2C8B8F3BB64AD7FD24BAE535E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF114A2C1979507D4A8003BB0C5AB09 /* KPLLogONE */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		266E02CF208D051CA7C07D0D33A80F16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C300ADE65CC8478DF630578730C2883D /* Pods-KPLLogONE_Example */,
+				B372321082F25E5D699AE7276F9589CF /* Pods-KPLLogONE_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32A75F11919D6DBB1C4EBCC0449B55A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				188DDF231EF2351F00CBEA14 /* KPLOne.h */,
+				188DDF241EF2351F00CBEA14 /* KPLOne.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6DF114A2C1979507D4A8003BB0C5AB09 /* KPLLogONE */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F80C7C7757B37A3AC9ED1CE92406B /* KPLLogONE */,
+				0963C01262709356162CB87F7A3CE1D0 /* Support Files */,
+			);
+			name = KPLLogONE;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1AE971D2C8B8F3BB64AD7FD24BAE535E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C876584A2A69A0C402E5E28DC7F5A0C6 /* Products */,
+				266E02CF208D051CA7C07D0D33A80F16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B372321082F25E5D699AE7276F9589CF /* Pods-KPLLogONE_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BBAB7D8424002E377B8F387D01B52 /* Info.plist */,
+				FE5BD2F6F80F2F91D8F26A38F6D18CEE /* Pods-KPLLogONE_Tests.modulemap */,
+				0EC8D7DC228BB1220D459C6AD1F3533A /* Pods-KPLLogONE_Tests-acknowledgements.markdown */,
+				9C7941747E2351323605E69C72D7D2CE /* Pods-KPLLogONE_Tests-acknowledgements.plist */,
+				38554EB44DFF6B2FC424CD776D382341 /* Pods-KPLLogONE_Tests-dummy.m */,
+				D4D50ABC62A8DCD13321B676DDCF3DE0 /* Pods-KPLLogONE_Tests-frameworks.sh */,
+				86B36F6F9F246EF06070E6A25D6140A7 /* Pods-KPLLogONE_Tests-resources.sh */,
+				A5DB8640687C9E9534CE90E76123ED0E /* Pods-KPLLogONE_Tests-umbrella.h */,
+				16D91F9445793E02E993F6665CA5BAA3 /* Pods-KPLLogONE_Tests.debug.xcconfig */,
+				0F802006A4A3CD31B36CE02515B25C6F /* Pods-KPLLogONE_Tests.release.xcconfig */,
+			);
+			name = "Pods-KPLLogONE_Tests";
+			path = "Target Support Files/Pods-KPLLogONE_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C300ADE65CC8478DF630578730C2883D /* Pods-KPLLogONE_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D8669D921A65FA8B78B3295C1A8684D2 /* Info.plist */,
+				539916429F8C045EF29BC83183C0A1A3 /* Pods-KPLLogONE_Example.modulemap */,
+				3D2072A1DA39DA6C75C1B9BEAF8BAADD /* Pods-KPLLogONE_Example-acknowledgements.markdown */,
+				0FE4E8EBA3826FA2E3F6FB5257D763E2 /* Pods-KPLLogONE_Example-acknowledgements.plist */,
+				A9AC1DBBD05E3D825BF0BB2545D33476 /* Pods-KPLLogONE_Example-dummy.m */,
+				A2FF6E0A00C7A244D293D499EDFF3663 /* Pods-KPLLogONE_Example-frameworks.sh */,
+				8BD10D1EDF218E8E63834DCC217D00E0 /* Pods-KPLLogONE_Example-resources.sh */,
+				3A34A639ABE2A68801C1DD15CF975826 /* Pods-KPLLogONE_Example-umbrella.h */,
+				4B5181995258A5FEC102315A7F68B1D7 /* Pods-KPLLogONE_Example.debug.xcconfig */,
+				3118E04B439863D296A1210175713EF2 /* Pods-KPLLogONE_Example.release.xcconfig */,
+			);
+			name = "Pods-KPLLogONE_Example";
+			path = "Target Support Files/Pods-KPLLogONE_Example";
+			sourceTree = "<group>";
+		};
+		C876584A2A69A0C402E5E28DC7F5A0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E499E2F9B6E8E43CCBF777D180D2D3 /* KPLLogONE.framework */,
+				A607D793A89A0FA9CC2278D6C3D78775 /* Pods_KPLLogONE_Example.framework */,
+				2DD72C92D632A723968C35BB01ADE1F6 /* Pods_KPLLogONE_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2F80C7C7757B37A3AC9ED1CE92406B /* KPLLogONE */ = {
+			isa = PBXGroup;
+			children = (
+				32A75F11919D6DBB1C4EBCC0449B55A8 /* Classes */,
+			);
+			path = KPLLogONE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		640C508D4E90CD5D41F9AEBB0093F8F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD17602C899CA91D76CC4588E15C4BE7 /* Pods-KPLLogONE_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679546E337C954986C58C30332AD7F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819AF1266279B997401182BFA99DFF28 /* Pods-KPLLogONE_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39CC1F55C6C81251207E1436969ADBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5774DB45C6396E9B51C20B21FFF1AF /* KPLLogONE-umbrella.h in Headers */,
+				188DDF251EF2351F00CBEA14 /* KPLOne.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2516839A4EE0198E667B1871B6C4FBA8 /* Pods-KPLLogONE_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6273040BF1F5784E2B8D1DE2C381452D /* Build configuration list for PBXNativeTarget "Pods-KPLLogONE_Tests" */;
+			buildPhases = (
+				9F1461C20EC5980C9C72BCB2ED086B9A /* Sources */,
+				367BB43A6D49CD3B63D61C2C2F046EB1 /* Frameworks */,
+				679546E337C954986C58C30332AD7F7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KPLLogONE_Tests";
+			productName = "Pods-KPLLogONE_Tests";
+			productReference = 2DD72C92D632A723968C35BB01ADE1F6 /* Pods_KPLLogONE_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B5CB44ABEFC99F4A2FE33B9E9330665 /* KPLLogONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A036143D1FEE505A70E87DE9AFDCE039 /* Build configuration list for PBXNativeTarget "KPLLogONE" */;
+			buildPhases = (
+				A59AE8118D93943D9FD198490E0D5866 /* Sources */,
+				56BABD50F8F2300C20354E7B421C0C40 /* Frameworks */,
+				B39CC1F55C6C81251207E1436969ADBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPLLogONE;
+			productName = KPLLogONE;
+			productReference = 84E499E2F9B6E8E43CCBF777D180D2D3 /* KPLLogONE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD1061F4C517258E2A83036E66BE0D94 /* Pods-KPLLogONE_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873D06C83D86B11629E86F8325161EDE /* Build configuration list for PBXNativeTarget "Pods-KPLLogONE_Example" */;
+			buildPhases = (
+				81C604BB3F0A2C99FD3CD20BDB919AD9 /* Sources */,
+				8D185B09608CCB7C34B67B365B31D689 /* Frameworks */,
+				640C508D4E90CD5D41F9AEBB0093F8F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7373070989CCA653E1B7AE0A4778F4FE /* PBXTargetDependency */,
+			);
+			name = "Pods-KPLLogONE_Example";
+			productName = "Pods-KPLLogONE_Example";
+			productReference = A607D793A89A0FA9CC2278D6C3D78775 /* Pods_KPLLogONE_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C876584A2A69A0C402E5E28DC7F5A0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5CB44ABEFC99F4A2FE33B9E9330665 /* KPLLogONE */,
+				BD1061F4C517258E2A83036E66BE0D94 /* Pods-KPLLogONE_Example */,
+				2516839A4EE0198E667B1871B6C4FBA8 /* Pods-KPLLogONE_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C604BB3F0A2C99FD3CD20BDB919AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4D283CE0BC88EB8C4E7F13A94C5498 /* Pods-KPLLogONE_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1461C20EC5980C9C72BCB2ED086B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BA966A89A90FC6F7D2B2C601E18560 /* Pods-KPLLogONE_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59AE8118D93943D9FD198490E0D5866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188DDF261EF2351F00CBEA14 /* KPLOne.m in Sources */,
+				B4EB91331D022E7D3654A3CA5337AE26 /* KPLLogONE-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7373070989CCA653E1B7AE0A4778F4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KPLLogONE;
+			target = 9B5CB44ABEFC99F4A2FE33B9E9330665 /* KPLLogONE */;
+			targetProxy = DF13AD58B9F0B57FB305DE158E9A98EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		205723B46B333BA696F9B8CF772277C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D91F9445793E02E993F6665CA5BAA3 /* Pods-KPLLogONE_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLLogONE_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLLogONE_Tests/Pods-KPLLogONE_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLLogONE_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29C58ACFC829D3B9D5C02FC477FE7C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A89DB7488B6A74C4761F22A21E9CEBC /* KPLLogONE.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KPLLogONE/KPLLogONE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPLLogONE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPLLogONE/KPLLogONE.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KPLLogONE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A65AFD2C3E3CBC4374353E39602970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A89DB7488B6A74C4761F22A21E9CEBC /* KPLLogONE.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KPLLogONE/KPLLogONE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPLLogONE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPLLogONE/KPLLogONE.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KPLLogONE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2ECE715B7889E1FB96EA75C6D22E38C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3118E04B439863D296A1210175713EF2 /* Pods-KPLLogONE_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLLogONE_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLLogONE_Example/Pods-KPLLogONE_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLLogONE_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89AE36F43288EE1A3C8C5208A1F6B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F802006A4A3CD31B36CE02515B25C6F /* Pods-KPLLogONE_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLLogONE_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLLogONE_Tests/Pods-KPLLogONE_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLLogONE_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9569DB1FF8185B0F19C7C31E2C90E8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5181995258A5FEC102315A7F68B1D7 /* Pods-KPLLogONE_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLLogONE_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLLogONE_Example/Pods-KPLLogONE_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLLogONE_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6273040BF1F5784E2B8D1DE2C381452D /* Build configuration list for PBXNativeTarget "Pods-KPLLogONE_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205723B46B333BA696F9B8CF772277C2 /* Debug */,
+				89AE36F43288EE1A3C8C5208A1F6B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873D06C83D86B11629E86F8325161EDE /* Build configuration list for PBXNativeTarget "Pods-KPLLogONE_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9569DB1FF8185B0F19C7C31E2C90E8D7 /* Debug */,
+				2ECE715B7889E1FB96EA75C6D22E38C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A036143D1FEE505A70E87DE9AFDCE039 /* Build configuration list for PBXNativeTarget "KPLLogONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C58ACFC829D3B9D5C02FC477FE7C5C /* Debug */,
+				2A65AFD2C3E3CBC4374353E39602970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
