@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		188DDF251EF2351F00CBEA14 /* KPLOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 188DDF231EF2351F00CBEA14 /* KPLOne.h */; };
-		188DDF261EF2351F00CBEA14 /* KPLOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DDF241EF2351F00CBEA14 /* KPLOne.m */; };
+		188DDF291EF23DB700CBEA14 /* KPLOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 188DDF271EF23DB700CBEA14 /* KPLOne.h */; };
+		188DDF2A1EF23DB700CBEA14 /* KPLOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DDF281EF23DB700CBEA14 /* KPLOne.m */; };
 		3D5774DB45C6396E9B51C20B21FFF1AF /* KPLLogONE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E9BBB89072903442E9F0C6A624A434 /* KPLLogONE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F4D283CE0BC88EB8C4E7F13A94C5498 /* Pods-KPLLogONE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AC1DBBD05E3D825BF0BB2545D33476 /* Pods-KPLLogONE_Example-dummy.m */; };
 		614F02938CFA26909C5ACDA1FC11935A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -36,8 +36,8 @@
 		0F802006A4A3CD31B36CE02515B25C6F /* Pods-KPLLogONE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0FE4E8EBA3826FA2E3F6FB5257D763E2 /* Pods-KPLLogONE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLLogONE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		16D91F9445793E02E993F6665CA5BAA3 /* Pods-KPLLogONE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		188DDF231EF2351F00CBEA14 /* KPLOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KPLOne.h; path = ../../../Desktop/KPLOne.h; sourceTree = "<group>"; };
-		188DDF241EF2351F00CBEA14 /* KPLOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KPLOne.m; path = ../../../Desktop/KPLOne.m; sourceTree = "<group>"; };
+		188DDF271EF23DB700CBEA14 /* KPLOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KPLOne.h; path = ../../../KPLOne.h; sourceTree = "<group>"; };
+		188DDF281EF23DB700CBEA14 /* KPLOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KPLOne.m; path = ../../../KPLOne.m; sourceTree = "<group>"; };
 		2DD72C92D632A723968C35BB01ADE1F6 /* Pods_KPLLogONE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLLogONE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3118E04B439863D296A1210175713EF2 /* Pods-KPLLogONE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLLogONE_Example.release.xcconfig"; sourceTree = "<group>"; };
 		38554EB44DFF6B2FC424CD776D382341 /* Pods-KPLLogONE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLLogONE_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 		32A75F11919D6DBB1C4EBCC0449B55A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				188DDF231EF2351F00CBEA14 /* KPLOne.h */,
-				188DDF241EF2351F00CBEA14 /* KPLOne.m */,
+				188DDF271EF23DB700CBEA14 /* KPLOne.h */,
+				188DDF281EF23DB700CBEA14 /* KPLOne.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5774DB45C6396E9B51C20B21FFF1AF /* KPLLogONE-umbrella.h in Headers */,
-				188DDF251EF2351F00CBEA14 /* KPLOne.h in Headers */,
+				188DDF291EF23DB700CBEA14 /* KPLOne.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188DDF261EF2351F00CBEA14 /* KPLOne.m in Sources */,
+				188DDF2A1EF23DB700CBEA14 /* KPLOne.m in Sources */,
 				B4EB91331D022E7D3654A3CA5337AE26 /* KPLLogONE-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
